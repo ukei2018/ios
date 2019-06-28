@@ -1,1 +1,18 @@
 test
+
+git config --global user.name ukei2018
+git config user.name ukei2018
+git push -u origin master
+sudo git config --system --unset-all credential.helper
+git config user.name ukei2018
+git config --global user.name ukei2018
+git push
+git config user.email "mylovehera@hotmail.com"
+git push
+git remote -v
+git push -u https://ukei2018@hera9927@github.com/ukei2018/ios.git master
+git push -u https://ukei2018:hera9927@github.com/ukei2018/ios.git master
+git push -u https://ukei2018:Hera9927@github.com/ukei2018/ios.git master
+git push -u https://ukei2018:Hera9927@github.com/ukei2018/ios.git master
+
+
